@@ -1,5 +1,5 @@
 function person(name, age){
-    this.nama = name;
+    this.name = name;
     this.age = age;
 }
 
