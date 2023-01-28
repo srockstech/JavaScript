@@ -3,6 +3,7 @@ function person(name, age){
     this.age = age;
 }
 
+
 function year(){
     var age = 23;
     return 2022 - age;
