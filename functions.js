@@ -31,6 +31,13 @@ const greet3 = (x, y) => {
 
 const greet = v => "Welcome " + v; //For a one line function returning a value, we can exempt from using return keyword and braces
 
+const arr = [2, 3, 7, 8];
+
+// We can use a function in forEach function of an array like this:
+arr.forEach(v => {
+    console.log(v * 2);
+});
+
 greet1();
 greet2("Ram");
 greet3("Ram", "Shyam");
