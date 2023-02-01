@@ -33,7 +33,7 @@ const greet = v => "Welcome " + v; //For a one line function returning a value, 
 
 const arr = [2, 3, 7, 8];
 
-// We can use a function in forEach function of an array like this:
+// We can use a function in forEach function of an array to apply it on every element of the array:
 arr.forEach(v => {
     console.log(v * 2);
 });
