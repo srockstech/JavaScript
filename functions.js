@@ -1,16 +1,17 @@
-function person(name, age){
-    this.name = name;
-    this.age = age;
-}
-
+//Creating a normal function that returns a value:
 function year(){
     var age = 23;
     return 2022 - age;
 };
-
-var p1 = new person("Sarvagya Verma", 22);
-
 console.log(year());
+
+//Creating a function using function literal:
+var person = function(){
+    console.log("I am a person.");
+}
+person(); //Calling the function
+
+
 
 //ES6 syntax
 //Functions can be defined like this, when there are no parameters
