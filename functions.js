@@ -11,8 +11,6 @@ var person = function(){
 }
 person(); //Calling the function
 
-
-
 //ES6 syntax
 //Functions can be defined like this, when there are no parameters
 const greet1 = () => {
