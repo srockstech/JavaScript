@@ -38,3 +38,16 @@ console.log(h1.yearOfBirth());
 console.log(h1.age);
 h1.grow();
 console.log(h1.age);
+
+//ES6 Syntax:
+// Creating an object using an object literal:
+let tree = {
+    height: 10,
+    color: 'green',
+    grow() {     //ES6 doesn't require ':' and function keyword.
+        this.height += 2;
+    }
+};
+
+tree.grow();
+console.log(tree.height); // 12
