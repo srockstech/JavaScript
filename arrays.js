@@ -10,7 +10,7 @@ console.log(arr1);
 
 function whosPaying(names) {
         var randomIndex = Math.floor(Math.random()*names.length);
-        //Math.random() generates a random no in the range [0.0000000000000000, 0.9999999999999999];
+        //Mat.random() generates a random no in the range [0.0000000000000000, 0.9999999999999999];
         //To generate a non-decimal no to a maximum of n, we multiple Math.random() with (n+1) and take Math.floor() of it.
         console.log(`${names[randomIndex]} is going to buy lunch today!`);
 }
