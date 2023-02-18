@@ -40,4 +40,10 @@ document.querySelector("h1").classList.toggle("huge");
 //Listing current attributes on a HTML document
 console.log(document.querySelector("a").attributes);
 
-//Changing attributes of HTML elements
+//Fetching value of a particular attribute of a HTML element
+console.log(document.querySelector("a").getAttribute("href"));
+
+//Setting a new attribute to an HTML document or changing value of an existing attribute
+document.querySelector("a").setAttribute("href", "https://www.bing.com/"); //changing value of an existing attribute
+document.querySelector("a").setAttribute("class", "search"); //Adding new attribute
+console.log(document.querySelector("a").attributes);
