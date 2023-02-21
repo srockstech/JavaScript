@@ -45,5 +45,5 @@ console.log(document.querySelector("a").getAttribute("href"));
 
 //Setting a new attribute to an HTML document or changing value of an existing attribute
 document.querySelector("a").setAttribute("href", "https://www.bing.com/"); //changing value of an existing attribute
-document.querySelector("a").setAttribute("class", "search"); //Adding new attribute
+document.querySelector("a").setAttribute("class", "search"); //Adding a new attribute
 console.log(document.querySelector("a").attributes);
